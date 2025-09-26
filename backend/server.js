@@ -8,7 +8,6 @@ require('dotenv').config();
 // FILE IMPORTS
 const { connectDB } = require("./database/connection");
 const jwtAuthenticator = require("./middlewares/jwt");
-const isSubscribed = require("./middlewares/isSubscribed");
 
 // ROUTES
 const usersRoute = require("./routes/userRoute");
